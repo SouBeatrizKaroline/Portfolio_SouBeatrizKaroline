@@ -38,7 +38,7 @@ pnpm run build
 pnpm run preview
 ```
 
-A versão de produção fica em `dist/`, pronta para um serviço de sites estáticos. Os caminhos relativos permitem servir o portfólio em um subdiretório. Para rotas adicionais com BrowserRouter, configuro o servidor para redirecionar URLs da aplicação para `index.html`.
+A versão de produção fica em `dist/`, pronta para um serviço de sites estáticos. Na Vercel, uso o preset **Vite**, o comando `pnpm run build` e o diretório de saída `dist`. O arquivo `vercel.json` inclui essas configurações e o redirecionamento necessário para as rotas da aplicação. O endereço-base é `/`, para servir o portfólio na raiz do domínio.
 
 ## Atualizar meu conteúdo
 
