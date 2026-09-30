@@ -72,7 +72,7 @@ export function ProjectsSection() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#1e1e2d] via-transparent to-transparent opacity-80" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1e1e2d]/30 via-transparent to-transparent" />
                 <span className="absolute top-3 left-3 px-3 py-1 rounded-full bg-[#121218]/80 text-[#ffd54f] text-[10px] font-bold tracking-wide backdrop-blur-md border border-white/10">
                   {project.category}
                 </span>

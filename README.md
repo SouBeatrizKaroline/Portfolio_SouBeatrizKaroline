@@ -50,7 +50,7 @@ A versão de produção fica em `dist/`, pronta para um serviço de sites estát
 | `public/favicon.svg` | Ícone felino da aba |
 | `index.html` | Título, idioma e descrição para buscadores |
 
-As imagens dos projetos são ilustrativas e carregadas de um serviço externo; não representam capturas dos produtos. Os links para demonstrações dependem da disponibilidade de serviços de terceiros. Confiro experiências e conquistas com meu perfil profissional antes de atualizar esses dados.
+As capas editoriais em `public/projects/` foram criadas para identificar meus projetos pelo nome, tema e cores; não representam capturas dos produtos ou suas marcas oficiais. Em Os Greens, uso a arte original publicada na minha página do itch.io. Os links para demonstrações dependem da disponibilidade de serviços de terceiros. Confiro experiências e conquistas com meu perfil profissional antes de atualizar esses dados.
 
 ## Onde me encontrar
 

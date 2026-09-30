@@ -33,6 +33,10 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
               <img src={project.image} alt={project.title} className="w-full h-full object-cover" onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = `${import.meta.env.BASE_URL}project-placeholder.svg` }} />
             </div>
 
+            <p className="text-xs text-slate-400 -mt-2 mb-4">
+              {project.imageCredit ?? 'Capa editorial criada para meu portfólio.'}
+            </p>
+
             <div className="flex items-center gap-2 p-3 rounded-xl bg-[#ffd54f]/10 border border-[#ffd54f]/30 text-[#ffd54f] text-xs font-bold mb-4">
               <Award className="w-4 h-4 shrink-0" />
               <span>{project.impact}</span>

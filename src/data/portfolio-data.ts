@@ -10,6 +10,7 @@ export interface Project {
   shortDesc: string
   fullDesc: string
   image: string
+  imageCredit?: string
   tags: string[]
   impact: string
   medal: string
@@ -193,7 +194,7 @@ export const PROJECTS: Project[] = [
       'Plataforma de IA preditiva para redução do desperdício de hortaliças na cadeia de suprimentos.',
     fullDesc:
       "Plataforma de IA preditiva desenvolvida em um desafio de inovação, focada na redução do desperdício de hortaliças na cadeia de suprimentos. O sistema utiliza modelos de machine learning para prever demanda, otimizar distribuição e conectar produtores a compradores de forma inteligente. A solução combina análise de dados, sustentabilidade e tecnologia AgroTech para criar impacto ambiental e econômico.",
-    image: 'https://img.usecurling.com/p/600/400?q=ai%20agriculture%20vegetables&color=green',
+    image: `${import.meta.env.BASE_URL}projects/destinai.svg`,
     tags: ['IA Preditiva', 'Sustentabilidade', 'AgroTech', 'Logística', 'Full Stack'],
     impact: "🥉 3º lugar em desafio de inovação",
     medal: '🥉',
@@ -213,7 +214,7 @@ export const PROJECTS: Project[] = [
       'Plataforma digital conectando produtores rurais, compradores institucionais e logística.',
     fullDesc:
       'Plataforma digital vencedora do Impulso Regional 2024 que conecta produtores rurais, compradores institucionais e serviços de logística em um único ecossistema. Desenvolvida com React, TypeScript e Python, a solução inclui chatbot WhatsApp para acesso simplificado, dashboard de gestão e sistema de matchmaking entre oferta e demanda. O projeto promove o desenvolvimento local e a transparência na cadeia agroalimentar.',
-    image: 'https://img.usecurling.com/p/600/400?q=farm%20technology%20platform&color=green',
+    image: `${import.meta.env.BASE_URL}projects/raizesgo.svg`,
     tags: [
       'React',
       'TypeScript',
@@ -239,7 +240,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Plataforma sustentável para comunidades quilombolas e preservação do Cerrado.',
     fullDesc:
       'Plataforma sustentável premiada no Hackathon do Governo de Goiás 2024, desenvolvida para apoiar comunidades quilombolas e a preservação do bioma Cerrado. A solução conecta produtores locais a mercados justos, promovendo valorização cultural, sustentabilidade ambiental e desenvolvimento econômico comunitário.',
-    image: 'https://img.usecurling.com/p/600/400?q=brazilian%20savanna%20nature&color=green',
+    image: `${import.meta.env.BASE_URL}projects/frutos-do-cerrado.svg`,
     tags: ['Sustentabilidade', 'Comunidades', 'Cerrado', 'GovTech', 'UX/UI'],
     impact: '🏆 1º Lugar Hackathon Governo de Goiás 2024',
     medal: '🏆',
@@ -255,7 +256,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'MVP gamificado para reciclagem e educação ambiental.',
     fullDesc:
       'MVP gamificado vencedor do Hack Frost NL 2.0, uma competição internacional de inovação. O aplicativo transforma a reciclagem e a educação ambiental em uma experiência engajadora, com sistema de pontuação, desafios e recompensas. A solução promove mudança de comportamento através de mecânicas de jogo aplicadas à sustentabilidade.',
-    image: 'https://img.usecurling.com/p/600/400?q=recycling%20gamification%20app&color=green',
+    image: `${import.meta.env.BASE_URL}projects/reclapp.svg`,
     tags: ['Gamificação', 'Reciclagem', 'Educação Ambiental', 'React', 'UX/UI'],
     impact: '🥇 1º Lugar Hack Frost NL 2.0',
     medal: '🥇',
@@ -271,7 +272,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Plataforma colaborativa de aprendizagem antirracista.',
     fullDesc:
       'Plataforma colaborativa de aprendizagem antirracista contemplada com investimento. O projeto cria um espaço digital para educação, reflexão e ação contra o racismo, utilizando narrativas interativas, conteúdo educacional e ferramentas de engajamento comunitário para promover inclusão e diversidade.',
-    image: 'https://img.usecurling.com/p/600/400?q=education%20diversity%20learning&color=purple',
+    image: `${import.meta.env.BASE_URL}projects/giro.svg`,
     tags: ['Educação', 'Impacto Social', 'Antirracismo', 'UX/UI', 'Plataforma'],
     impact: '🏆 Projeto contemplado com investimento',
     medal: '🏆',
@@ -287,7 +288,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Solução inspirada em ciência e dados da NASA para conexões ambientais globais.',
     fullDesc:
       'Projeto classificado como Global Nominee no NASA Space Apps Challenge 2024 e finalista regional em Barueri/SP. A solução utiliza dados científicos e de satélite da NASA para criar visualizações interativas que conectam fenômenos ambientais globais a impactos locais, promovendo conscientização e ação climática.',
-    image: 'https://img.usecurling.com/p/600/400?q=earth%20space%20nasa&color=blue',
+    image: `${import.meta.env.BASE_URL}projects/earth-connections.svg`,
     tags: ['NASA', 'Dados', 'Sustentabilidade', 'Visualização', 'Full Stack'],
     impact: '🌎 Global Nominee NASA Space Apps Challenge 2024',
     medal: '🌎',
@@ -313,8 +314,8 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Jogo narrativo interativo sobre aventura e conscientização ambiental.',
     fullDesc:
       'Jogo desenvolvido para a GameJamPlus 24/25, classificado no Top 3. Uma experiência narrativa interativa que combina diversão e conscientização ambiental, onde personagens vegetais embarcam em uma aventura para resgatar o sábado animado. Atuei como cofundadora e roteirista, contribuindo com a narrativa e o storytelling do jogo.',
-    image:
-      'https://img.usecurling.com/p/600/400?q=video%20game%20adventure%20vegetables&color=orange',
+    image: 'https://img.itch.zone/aW1nLzE4MjQ5ODcxLmpwZw==/original/DjjVv0.jpg',
+    imageCredit: 'Arte original do jogo publicada na minha página do itch.io.',
     tags: ['Game Design', 'Storytelling', 'Sustentabilidade', 'GameJam'],
     impact: '🏅 Top 3 GameJamPlus 24/25',
     medal: '🏅',
@@ -334,7 +335,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Solução de cibersegurança com IA e impacto social.',
     fullDesc:
       'Projeto vencedor do prêmio "Most Courageous Hack #1" no TechTogether Miami. Uma solução de cibersegurança com foco em IA que combina tecnologia e impacto social, protegendo usuários vulneráveis e promovendo segurança digital. O projeto destacou-se pela coragem e inovação na abordagem de problemas reais.',
-    image: 'https://img.usecurling.com/p/600/400?q=cybersecurity%20tech%20shield&color=green',
+    image: `${import.meta.env.BASE_URL}projects/greenhat.svg`,
     tags: ['Cibersegurança', 'IA', 'Impacto Social', 'Proteção'],
     impact: '🏆 Winner Most Courageous Hack #1 TechTogether Miami',
     medal: '🏆',
@@ -350,7 +351,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Plataforma de inclusão e visibilidade LGBTQIA+ através de tecnologia.',
     fullDesc:
       'Plataforma desenvolvida para o Hacka Pride 2023, classificada em 2º lugar. A solução promove inclusão e visibilidade LGBTQIA+ através de tecnologia, com foco em UX/UI acessível e impacto social. O projeto combina design sensitivo, navegação intuitiva e conteúdo relevante para a comunidade.',
-    image: 'https://img.usecurling.com/p/600/400?q=diversity%20inclusion%20tech&color=pink',
+    image: `${import.meta.env.BASE_URL}projects/ium.svg`,
     tags: ['UX/UI', 'Acessibilidade', 'Impacto Social', 'Design'],
     impact: '🥈 2º Lugar Hacka Pride 2023',
     medal: '🥈',
@@ -366,7 +367,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Plataforma conectando mulheres a oportunidades de tecnologia.',
     fullDesc:
       'Plataforma desenvolvida para o Potência Hack 2023, classificada em 2º lugar. A solução conecta mulheres a oportunidades de tecnologia, oferecendo mentoria, networking e recursos de capacitação. O projeto promove inclusão digital e empoderamento feminino no ecossistema tech.',
-    image: 'https://img.usecurling.com/p/600/400?q=women%20tech%20team%20empower&color=blue',
+    image: `${import.meta.env.BASE_URL}projects/equipa-tech.svg`,
     tags: ['Desenvolvimento', 'Impacto Social', 'Mulheres em Tech', 'Plataforma'],
     impact: '🥈 2º Lugar Potência Hack 2023',
     medal: '🥈',
@@ -382,7 +383,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Plataforma de turismo com experiências personalizadas e interativas.',
     fullDesc:
       'Plataforma de turismo desenvolvida para o Hackatour Cataratas 2022, classificada em 2º lugar. A solução cria experiências turísticas personalizadas e interativas, conectando viajantes a atrações locais com foco em sustentabilidade e desenvolvimento regional. Inclui mapas interativos, recomendações e gamificação.',
-    image: 'https://img.usecurling.com/p/600/400?q=tourism%20travel%20app&color=cyan',
+    image: `${import.meta.env.BASE_URL}projects/infinitour.svg`,
     tags: ['UX/UI', 'Desenvolvimento', 'Turismo', 'Gamificação', 'Mapas'],
     impact: '🥈 2º Lugar Hackatour Cataratas 2022',
     medal: '🥈',
@@ -398,7 +399,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Solução para dar visibilidade e apoio a causas sociais.',
     fullDesc:
       'Projeto desenvolvido para o Hacka Pride 2022, classificado em 3º lugar. A solução visa dar visibilidade e apoio a causas sociais, combinando design impactante e funcionalidades práticas para promoção de direitos e inclusão.',
-    image: 'https://img.usecurling.com/p/600/400?q=social%20impact%20visibility&color=pink',
+    image: `${import.meta.env.BASE_URL}projects/viga.svg`,
     tags: ['Impacto Social', 'Design', 'Inclusão', 'Visibilidade'],
     impact: '🥉 3º Lugar Hacka Pride 2022',
     medal: '🥉',
@@ -414,7 +415,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Extensão de navegador para detectar e analisar bots em redes sociais.',
     fullDesc:
       'Extensão de navegador desenvolvida para o Hackathon Pegabot, recebeu Menção Honrosa. A ferramenta detecta e analisa comportamentos de bots em redes sociais, combinando IA e análise de padrões para combater desinformação. Inclui dashboard de análise e alertas em tempo real.',
-    image: 'https://img.usecurling.com/p/600/400?q=browser%20extension%20security&color=blue',
+    image: `${import.meta.env.BASE_URL}projects/pegabot-extension.svg`,
     tags: ['IA', 'Desenvolvimento', 'Segurança', 'Análise de Dados'],
     impact: '🎖 Menção Honrosa Hackathon Pegabot',
     medal: '🎖',
@@ -430,7 +431,7 @@ export const PROJECTS: Project[] = [
     shortDesc: 'Plataforma conectando iniciativas sustentáveis, empresas e cidadãos.',
     fullDesc:
       'Plataforma de tecnologia verde classificada no Top 10 do iHack2Green 2022. A solução conecta iniciativas sustentáveis, empresas e cidadãos, promovendo economia circular e cidades mais verdes através de tecnologia e engajamento comunitário.',
-    image: 'https://img.usecurling.com/p/600/400?q=green%20city%20sustainability&color=green',
+    image: `${import.meta.env.BASE_URL}projects/connectgreen.svg`,
     tags: ['Sustentabilidade', 'Economia Circular', 'Cidades Inteligentes', 'Plataforma'],
     impact: '🏆 Top 10 iHack2Green 2022',
     medal: '🏆',
@@ -447,7 +448,7 @@ export const PROJECTS: Project[] = [
       'Projeto combinando cultura, tecnologia e impacto social para empoderamento feminino.',
     fullDesc:
       'Projeto classificado no Top 15 da Hackatona ADE Sampa 2022. A solução combina cultura, tecnologia e impacto social para promover o empoderamento feminino e a valorização de histórias inspiradoras, criando um espaço digital para narrativas de mudança.',
-    image: 'https://img.usecurling.com/p/600/400?q=urban%20innovation%20culture&color=orange',
+    image: `${import.meta.env.BASE_URL}projects/dionisa.svg`,
     tags: ['Impacto Social', 'Cultura', 'Empoderamento', 'Plataforma'],
     impact: '🏆 Top 15 Hackatona ADE Sampa 2022',
     medal: '🏆',

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">RaízesGo</title><desc id="desc">Capa editorial: Do campo às conexões que importam.</desc>
+<defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#e0e8a3" stroke-opacity=".06"/></pattern></defs>
+<rect width="1200" height="675" fill="#243224"/><rect width="1200" height="675" fill="url(#grid)"/>
+<circle cx="1020" cy="260" r="310" fill="#e0e8a3" opacity=".04"/>
+<circle cx="930" cy="295" r="220" fill="none" stroke="#e0e8a3" stroke-opacity=".13"/>
+<path d="M64 160H145" stroke="#e0e8a3" stroke-width="5"/>
+<text x="64" y="207" fill="#e0e8a3" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">AGROTECH / LOGÍSTICA</text>
+<text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">RaízesGo</text>
+<text x="64" y="390" fill="#e0e8a3" font-family="Arial,sans-serif" font-size="27">Do campo às conexões que importam.</text>
+<g transform="translate(790 185) scale(1.25)" fill="none" stroke="#e0e8a3" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M120 220V80M120 130C40 130 30 80 35 35C100 35 120 75 120 105M120 95C120 50 180 20 220 30C220 85 180 110 120 105M120 190L65 225M120 190L175 225"/><circle cx="25" cy="225" r="12"/><circle cx="215" cy="225" r="12"/></g>
+<path d="M64 520H1136" stroke="#e0e8a3" stroke-opacity=".2"/>
+<text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+<text x="1136" y="563" text-anchor="end" fill="#e0e8a3" font-family="Arial,sans-serif" font-size="19">02</text>
+</svg>

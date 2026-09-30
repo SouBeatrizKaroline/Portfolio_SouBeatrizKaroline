@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Frutos do Cerrado</title><desc id="desc">Capa editorial: Território, comunidades e sustentabilidade.</desc>
+<defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#f2bd74" stroke-opacity=".06"/></pattern></defs>
+<rect width="1200" height="675" fill="#432a19"/><rect width="1200" height="675" fill="url(#grid)"/>
+<circle cx="1020" cy="260" r="310" fill="#f2bd74" opacity=".04"/>
+<circle cx="930" cy="295" r="220" fill="none" stroke="#f2bd74" stroke-opacity=".13"/>
+<path d="M64 160H145" stroke="#f2bd74" stroke-width="5"/>
+<text x="64" y="207" fill="#f2bd74" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">CERRADO / IMPACTO</text>
+<text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="66" font-weight="700" letter-spacing="-2">Frutos do Cerrado</text>
+<text x="64" y="390" fill="#f2bd74" font-family="Arial,sans-serif" font-size="27">Território, comunidades e sustentabilidade.</text>
+<g transform="translate(790 185) scale(1.25)" fill="none" stroke="#f2bd74" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M30 190C30 90 130 30 210 45C225 135 170 205 80 215M65 195L170 95M100 160L95 110M140 125L185 125"/><circle cx="170" cy="205" r="30"/><path d="M170 175L178 160"/></g>
+<path d="M64 520H1136" stroke="#f2bd74" stroke-opacity=".2"/>
+<text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+<text x="1136" y="563" text-anchor="end" fill="#f2bd74" font-family="Arial,sans-serif" font-size="19">03</text>
+</svg>

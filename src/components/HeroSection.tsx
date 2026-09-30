@@ -12,7 +12,7 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-4 sm:px-6 overflow-hidden bg-gradient-to-b from-[#121218] via-[#1a237e]/40 to-[#121218]"
+      className="relative min-h-screen flex flex-col items-center justify-center pt-28 pb-10 px-4 sm:px-6 overflow-hidden bg-gradient-to-b from-[#121218] via-[#1a237e]/40 to-[#121218]"
     >
       <CanvasParticles />
 
@@ -91,7 +91,7 @@ export function HeroSection() {
       {/* Scroll Down Indicator */}
       <button
         onClick={() => scrollTo('historia')}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 text-slate-400 hover:text-[#ffd54f] transition-colors p-2 rounded-full animate-bounce flex flex-col items-center gap-1 text-[10px] uppercase font-bold tracking-widest"
+        className="relative z-10 mt-12 shrink-0 text-slate-400 hover:text-[#ffd54f] transition-colors p-2 rounded-full animate-bounce flex flex-col items-center gap-1 text-[10px] uppercase font-bold tracking-widest"
         aria-label="Rolar para baixo"
       >
         <span>Minha Trajetória</span>

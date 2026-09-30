@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">DestinAI</title><desc id="desc">Capa editorial: Prever demanda. Evitar desperdício.</desc>
+<defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#60e5b1" stroke-opacity=".06"/></pattern></defs>
+<rect width="1200" height="675" fill="#0c2925"/><rect width="1200" height="675" fill="url(#grid)"/>
+<circle cx="1020" cy="260" r="310" fill="#60e5b1" opacity=".04"/>
+<circle cx="930" cy="295" r="220" fill="none" stroke="#60e5b1" stroke-opacity=".13"/>
+<path d="M64 160H145" stroke="#60e5b1" stroke-width="5"/>
+<text x="64" y="207" fill="#60e5b1" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">INTELIGÊNCIA ARTIFICIAL</text>
+<text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">DestinAI</text>
+<text x="64" y="390" fill="#60e5b1" font-family="Arial,sans-serif" font-size="27">Prever demanda. Evitar desperdício.</text>
+<g transform="translate(790 185) scale(1.25)" fill="none" stroke="#60e5b1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 210L70 160L115 178L160 80L220 35M170 35H220V85"/><path d="M20 100C20 35 85 10 125 25C135 85 85 115 40 110M40 100L90 55"/><circle cx="70" cy="160" r="8"/><circle cx="115" cy="178" r="8"/></g>
+<path d="M64 520H1136" stroke="#60e5b1" stroke-opacity=".2"/>
+<text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+<text x="1136" y="563" text-anchor="end" fill="#60e5b1" font-family="Arial,sans-serif" font-size="19">01</text>
+</svg>
