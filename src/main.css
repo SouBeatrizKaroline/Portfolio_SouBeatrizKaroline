@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jump-link { position: fixed; top: 8px; left: 8px; z-index: 10000; padding: 12px 20px; background: #ffd54f; color: #121218; transform: translateY(-200%); border-radius: 8px; }
+.jump-link:focus { transform: translateY(0); }
+:focus-visible { outline: 2px solid #ffd54f; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+@layer base {
+  :root {
+    --background: 240 10% 8%;
+    --foreground: 210 40% 98%;
+    --card: 240 10% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 231 65% 30%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 283 68% 38%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 10% 15%;
+    --muted-foreground: 215 16% 65%;
+    --accent: 283 68% 38%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 10% 20%;
+    --input: 240 10% 20%;
+    --ring: 283 68% 38%;
+    --radius: 0.75rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#121218] text-slate-100 antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8) translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+
+  .animate-bounce-in {
+    animation: bounceIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  }
+}
