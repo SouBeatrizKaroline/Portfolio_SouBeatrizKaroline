@@ -58,10 +58,10 @@ export interface Testimonial {
 }
 
 export const HERO_STATS = [
-  { value: '15', label: 'Projetos & Hackathons', sub: 'Premiações e participações' },
-  { value: '4', label: 'Países com Soluções', sub: 'Canadá, EUA, Inglaterra e Índia' },
-  { value: '7', label: 'Vidas & Disciplinas', sub: 'Saúde, Tech, Design & Games' },
-  { value: '4', label: 'Primeiros Lugares', sub: 'Incluindo vitória internacional' },
+  { value: '+15', label: 'Projetos & Hackathons', sub: 'Premiações e participações' },
+  { value: '+4', label: 'Países com Soluções', sub: 'Canadá, EUA, Inglaterra e Índia' },
+  { value: '+7', label: 'Vidas & Disciplinas', sub: 'Saúde, Tech, Design & Games' },
+  { value: '+4', label: 'Primeiros Lugares', sub: 'Incluindo vitória internacional' },
 ]
 
 export const TIMELINE_EVENTS: Milestone[] = [
