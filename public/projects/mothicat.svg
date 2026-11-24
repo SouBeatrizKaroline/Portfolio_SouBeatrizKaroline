@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Mothi — Ecos no Campo</title>
+  <desc id="desc">Capa editorial: Um gato, um jardim e memórias de infância.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#f0cf92" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#28372f"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#f0cf92" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#f0cf92" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#f0cf92" stroke-width="5"/>
+  <text x="64" y="207" fill="#f0cf92" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">GAMES / NARRATIVA 3D</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Mothi</text>
+  <text x="64" y="367" fill="#fff" fill-opacity=".85" font-family="Arial,sans-serif" font-size="44" font-weight="700">Ecos no Campo</text>
+  <text x="64" y="425" fill="#f0cf92" font-family="Arial,sans-serif" font-size="27">Um gato, um jardim e memórias de infância.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#f0cf92" fill="none" stroke="#f0cf92" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49 143L48 69L82 89Q109 76 139 89L171 67L172 140Q166 177 112 181Q56 177 49 143Z"/>
+    <path d="M83 127H92M132 127H141M105 143H117M111 143V150M111 150Q104 157 96 151M111 150Q118 157 126 151"/>
+    <path d="M25 196Q70 182 112 206Q152 182 211 196M112 206V222M34 208Q77 196 112 222Q152 196 202 208"/>
+    <path d="M197 32V63M181 48H212M76 32V50M67 41H85"/>
+    <circle cx="155" cy="41" r="4"/>
+  </g>
+  <path d="M64 520H1136" stroke="#f0cf92" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>
