@@ -58,32 +58,18 @@ export interface Testimonial {
 }
 
 export const HERO_STATS = [
-  { value: '15+', label: 'Projetos & Hackathons', sub: 'Premiações e participações' },
-  { value: '4+', label: 'Países com Soluções', sub: 'Canadá, EUA, Inglaterra e Índia' },
-  { value: '7+', label: 'Vidas & Disciplinas', sub: 'Saúde, Tech, Design & Games' },
-  { value: '4+', label: 'Primeiros Lugares', sub: 'Incluindo vitória internacional' },
+  { value: '10+', label: 'Pódios', sub: 'Em hackathons e desafios' },
+  { value: '4+', label: 'Países', sub: 'Experiências em equipes internacionais' },
+  { value: '4', label: 'Frentes criativas', sub: 'Desenvolvimento, UX, produto e games' },
+  { value: '2022+', label: 'Na comunidade tech', sub: 'Hackathons, ideathons e game jams' },
 ]
 
 export const TIMELINE_EVENTS: Milestone[] = [
   {
-    year: '2014',
-    title: 'Primeiros passos em Engenharia & Construção',
-    description:
-      'Curso Técnico em Edificações — base em desenho técnico, modelagem, estruturas, noções de elétrica e resolução de problemas práticos.',
-    icon: 'Building2',
-  },
-  {
-    year: '2016',
-    title: 'Saúde, Pessoas & Sistemas',
-    description:
-      'Início da graduação em Enfermagem Bacharelado pela UFPE — experiência com cuidado humano, saúde pública e gestão de equipes.',
-    icon: 'Activity',
-  },
-  {
     year: '2022',
-    title: 'Tecnologia, Hackathons & Inovação',
+    title: 'Primeiros projetos em tecnologia',
     description:
-      'Entrada no ecossistema de tecnologia — desenvolvimento de soluções digitais, programação, UX/UI e prototipação em maratonas de inovação.',
+      'Comecei a participar de hackathons e desafios de inovação, explorando desenvolvimento web, UX/UI, prototipação e trabalho em equipe.',
     icon: 'Code',
   },
   {
@@ -95,29 +81,22 @@ export const TIMELINE_EVENTS: Milestone[] = [
   },
   {
     year: '2024',
-    title: 'Primeiras Experiências Internacionais',
+    title: 'Reconhecimento em desafios nacionais e globais',
     description:
-      'Primeira viagem internacional para competir presencialmente — ampliação da visão global e conexão com comunidades de inovação mundial.',
-    icon: 'Plane',
-  },
-  {
-    year: '2025',
-    title: 'Incubação, Pré-incubação & Empreendedorismo',
-    description:
-      'Participação em programas de incubação e desenvolvimento de projetos estruturados — transformando ideias em produtos com potencial de mercado.',
-    icon: 'Rocket',
+      'Participei de equipes premiadas em desafios de inovação e fui finalista regional no NASA Space Apps Challenge.',
+    icon: 'Sparkles',
   },
   {
     year: '2026',
-    title: 'Construindo o Próximo Capítulo',
+    title: 'Desenvolvimento, jogos e formação em Marketing',
     description:
-      'Busca por parcerias, mentorias e investimentos para transformar protótipos em soluções escaláveis com impacto social e global.',
-    icon: 'Sparkles',
+      'Sigo criando soluções digitais e experiências interativas, enquanto estudo Marketing e participo do Programa Embaixadores Estudantis do Google.',
+    icon: 'Rocket',
   },
 ]
 
 export const TIMELINE_HIGHLIGHT =
-  'De edificações à tecnologia, da saúde à inteligência artificial: minha trajetória é construída pela combinação de diferentes conhecimentos para criar soluções que conectam pessoas e impacto.'
+  'Minha trajetória combina desenvolvimento de software, UX/UI, comunicação e criação de jogos para transformar ideias em experiências digitais úteis.'
 
 export const SEVEN_LIVES: SkillLife[] = [
   {
@@ -126,17 +105,17 @@ export const SEVEN_LIVES: SkillLife[] = [
     title: 'Programação e Tecnologia',
     subtitle: 'Engenharia Frontend & Fullstack',
     description:
-      'Desenvolvimento de aplicações reativas, acessíveis e escaláveis com React, TypeScript, TailwindCSS e arquiteturas modernas.',
+      'Criação de interfaces web e participação no desenvolvimento de aplicações com React, TypeScript, JavaScript e Node.js.',
     tags: ['React', 'TypeScript', 'Node.js', 'Vite', 'Tailwind'],
   },
   {
     id: 2,
     emoji: '🧠',
     title: 'Inteligência Artificial',
-    subtitle: 'Engenharia de Prompts & RAG',
+    subtitle: 'Ferramentas digitais e experimentação',
     description:
-      'Criação de ecossistemas inteligentes, integração de LLMs, busca vetorial e modelos de recomendação contextualizados.',
-    tags: ['AI Agents', 'Embeddings', 'Prompt Design', 'Python'],
+      'Exploração de recursos digitais e novas tecnologias em atividades de aprendizagem, prototipação e desenvolvimento de projetos.',
+    tags: ['Python', 'Prototipação', 'Pesquisa', 'Tecnologia'],
   },
   {
     id: 3,
@@ -144,7 +123,7 @@ export const SEVEN_LIVES: SkillLife[] = [
     title: 'Saúde Digital & Biotech',
     subtitle: 'Domínio do Cuidado & Dados',
     description:
-      'Aplicações direcionadas à triagem preditiva, gestão hospitalar e monitoramento inteligente de pacientes.',
+      'Interesse em saúde digital e desenvolvimento de projetos que consideram necessidades reais de pessoas e comunidades.',
     tags: ['Saúde Digital', 'Triagem Preditiva', 'UFPE', 'Usabilidade'],
   },
   {
@@ -153,7 +132,7 @@ export const SEVEN_LIVES: SkillLife[] = [
     title: 'Design UX/UI & Acessibilidade',
     subtitle: 'Interfaces Humanizadas',
     description:
-      'Arquitetura de informação limpa, prototipagem de alta fidelidade e conformidade com diretrizes WCAG de acessibilidade.',
+      'Pesquisa, prototipação e construção de interfaces com atenção à clareza, usabilidade e acessibilidade.',
     tags: ['Figma', 'Prototipagem', 'Design Systems', 'WCAG'],
   },
   {
@@ -180,12 +159,168 @@ export const SEVEN_LIVES: SkillLife[] = [
     title: 'Liderança & Mentoria em Tech',
     subtitle: 'Comunidade & Inclusão',
     description:
-      'Empoderamento de mulheres na tecnologia, mentoria em hackathons e facilitação de dinâmicas de ideação ágil.',
+      'Colaboração em equipes multidisciplinares e participação em comunidades, hackathons e iniciativas de tecnologia.',
     tags: ['Mulheres em Tech', 'Mentoria', 'Agile', 'Comunidade'],
   },
 ]
 
 export const PROJECTS: Project[] = [
+  {
+    id: 'capiba-quest',
+    title: 'Capiba Quest',
+    category: 'Games',
+    shortDesc: 'Jogo de exploração geolocalizada que transforma o CESAR e o Bairro do Recife em um mapa de aventura.',
+    fullDesc: 'Desenvolvido pela equipe Os Noobs 2.0 para o Ideathon P&D Design 2026, o Capiba Quest usa uma capivara gamer como guia em uma experiência interativa ligada ao espaço físico. A pessoa explora locais, escaneia QR Codes e descobre conteúdos pelo caminho. O projeto conquistou o 2º lugar no demoday do CESAR School.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Game Design', 'Geolocalização', 'Experiência Interativa', 'Recife', 'UX/UI'],
+    impact: '🥈 2º lugar — Ideathon P&D Design 2026',
+    medal: '🥈',
+    year: '2026',
+    isInternational: false,
+    filterTags: ['Games', 'Desenvolvimento', '2º Lugar', 'Top 3'],
+    links: [
+      { label: 'Demonstração', url: 'https://capibaquestgame.vercel.app/' },
+      { label: 'Equipe Os Noobs 2.0', url: 'https://osnoobs.goskip.app/' },
+    ],
+  },
+  {
+    id: 'ghost-route',
+    title: 'Ghost Route: Quantum Rescue Game',
+    category: 'Games',
+    shortDesc: 'Jogo educativo que apresenta sensores quânticos por meio de uma missão de resgate e navegação.',
+    fullDesc: 'Criado pela equipe QuantGirls no Qollab × IonQ Global Hackathon 2026. O jogo transforma conceitos de sensores quânticos e navegação sob interferência em uma experiência interativa. A equipe conquistou o 1º lugar no núcleo MPC (Minho, Porto e Coimbra), além de reconhecimentos por impacto, documentação e uso do Quantum Playground.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Computação Quântica', 'Game Design', 'Educação', 'Qiskit', 'Storytelling'],
+    impact: '🥇 1º lugar — Qollab × IonQ, núcleo MPC',
+    medal: '🥇',
+    year: '2026',
+    isInternational: true,
+    filterTags: ['Games', 'Educação', '1º Lugar', 'Top 3', 'Internacionais'],
+    links: [],
+  },
+  {
+    id: 'qubitmusic',
+    title: 'QubitMusic',
+    category: 'Educação',
+    shortDesc: 'Projeto premiado que aproxima computação quântica e música em uma experiência criativa.',
+    fullDesc: 'Desenvolvido no Qollab × IonQ Global Hackathon 2026 pela equipe QuantGirls. QubitMusic recebeu o reconhecimento Best of Quantum Impact no núcleo MPC, explorando uma forma criativa de conectar música e conceitos de computação quântica.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Computação Quântica', 'Música', 'Educação', 'Criatividade'],
+    impact: '🏆 Best of Quantum Impact — núcleo MPC',
+    medal: '🏆',
+    year: '2026',
+    isInternational: true,
+    filterTags: ['Educação', 'Internacionais', 'Menções'],
+    links: [],
+  },
+  {
+    id: 'qubit-stories',
+    title: 'Qubit Stories',
+    category: 'Educação',
+    shortDesc: 'Histórias ilustradas e experimentos para tornar conceitos quânticos mais acessíveis.',
+    fullDesc: 'Projeto da equipe QuantGirls no Qollab × IonQ Global Hackathon 2026. Qubit Stories apresenta conceitos de computação quântica por meio de histórias ilustradas em quatro idiomas e experimentos com Qiskit. Recebeu o prêmio Best of Quantum Unlocked no núcleo MPC.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Computação Quântica', 'Educação', 'Storytelling', 'Qiskit', 'Multilíngue'],
+    impact: '🏆 Best of Quantum Unlocked — núcleo MPC',
+    medal: '🏆',
+    year: '2026',
+    isInternational: true,
+    filterTags: ['Educação', 'Internacionais', 'Menções'],
+    links: [],
+  },
+  {
+    id: 'aqua-lunar',
+    title: 'Aqua Lunar',
+    category: 'Sustentabilidade',
+    shortDesc: 'Proposta para aproveitar gelo lunar e apoiar recursos para futuras missões espaciais.',
+    fullDesc: 'Projeto desenvolvido pela equipe ST4R no Space Mining Challenge Brasil 2026. A proposta explora o aproveitamento do gelo da cratera Shackleton para produzir oxigênio e hidrogênio, contribuindo para a autonomia de futuras missões. A equipe conquistou o 1º lugar na competição.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Exploração Espacial', 'Sustentabilidade', 'Ciência', 'Pesquisa'],
+    impact: '🥇 1º lugar — Space Mining Challenge Brasil 2026',
+    medal: '🥇',
+    year: '2026',
+    isInternational: false,
+    filterTags: ['Sustentabilidade', '1º Lugar', 'Top 3'],
+    links: [],
+  },
+  {
+    id: 'safraflux',
+    title: 'SafraFlux',
+    category: 'AgroTech',
+    shortDesc: 'Solução de privacidade financeira aplicada a pagamentos no agronegócio.',
+    fullDesc: 'Desenvolvido pela equipe SheBuilds, o SafraFlux integrou blockchain, Cloak e Zcash para explorar pagamentos mais privados e seguros no agronegócio. O projeto ficou entre os 10 premiados do Privacy Sprint, realizado pela Superteam Brasil durante o Colosseum Crypto World’s Fair Hackathon 2026.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Blockchain', 'Privacidade', 'Fintech', 'AgroTech'],
+    impact: '🏅 Top 10 projetos premiados — Privacy Sprint 2026',
+    medal: '🏅',
+    year: '2026',
+    isInternational: true,
+    filterTags: ['AgroTech', 'Internacionais', 'Menções'],
+    links: [],
+  },
+  {
+    id: 'orbitalq',
+    title: 'OrbitalQ',
+    category: 'Ciência & Dados',
+    shortDesc: 'Ferramenta web para explorar e comparar observações do telescópio espacial SPHEREx.',
+    fullDesc: 'Projeto da NASA Space Apps Challenge 2026. O OrbitalQ foi pensado para facilitar a exploração de dados do SPHEREx com visualização de observações e comparação de imagens. A demonstração pública está hospedada no Streamlit.',
+    image: `${import.meta.env.BASE_URL}projects/earth-connections.svg`,
+    tags: ['NASA', 'Astronomia', 'Dados Científicos', 'Python', 'Streamlit'],
+    impact: 'NASA Space Apps Challenge 2026',
+    medal: '🚀',
+    year: '2026',
+    isInternational: true,
+    filterTags: ['Desenvolvimento', 'Internacionais'],
+    links: [
+      { label: 'Demonstração', url: 'https://orbitalq.streamlit.app/' },
+      { label: 'GitHub', url: 'https://github.com/SouBeatrizKaroline/NasaSpaceApp_OrbitalQ' },
+    ],
+  },
+  {
+    id: 'health-monitoring',
+    title: 'Health Monitoring Software',
+    category: 'Saúde',
+    shortDesc: 'Conceito de software para apoiar o acompanhamento de saúde em missões espaciais.',
+    fullDesc: 'Projeto criado para a NASA Space Apps Challenge 2026. Explora como organizar sinais, riscos e protocolos de saúde em ambientes espaciais, incluindo desafios de radiação, isolamento e microgravidade. O foco está em reunir informação útil para apoiar a tomada de decisão durante missões.',
+    image: `${import.meta.env.BASE_URL}projects/ium.svg`,
+    tags: ['NASA', 'Saúde Digital', 'Monitoramento', 'Pesquisa', 'UX/UI'],
+    impact: 'NASA Space Apps Challenge 2026',
+    medal: '🩺',
+    year: '2026',
+    isInternational: true,
+    filterTags: ['Saúde', 'Desenvolvimento', 'Internacionais'],
+    links: [{ label: 'GitHub', url: 'https://github.com/SouBeatrizKaroline/NasaSpaceApp_HealthMonitoring' }],
+  },
+  {
+    id: 'vivia',
+    title: 'VivIA',
+    category: 'Desenvolvimento',
+    shortDesc: 'Proposta digital para apoiar pequenos negócios e o comércio local.',
+    fullDesc: 'Projeto desenvolvido para o Hackathon Connect 7.0 da FACESP. A VivIA foi pensada para apoiar empreendedores do varejo local com uma experiência digital acessível e uma mascote que orienta a interação. O projeto reúne interface web, produto e proposta de uso de dados para o contexto de associações comerciais.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Comércio Local', 'Produto Digital', 'UX/UI', 'React', 'Firebase'],
+    impact: 'Hackathon Connect 7.0 — FACESP',
+    medal: '💡',
+    year: '2026',
+    isInternational: false,
+    filterTags: ['Desenvolvimento', 'UX/UI', 'Impacto Social'],
+    links: [{ label: 'Projeto', url: 'https://connectvivia.vercel.app/' }],
+  },
+  {
+    id: 'arcade-age',
+    title: 'Arcade Age',
+    category: 'Games',
+    shortDesc: 'Espaço de criação e publicação de jogos e experiências interativas.',
+    fullDesc: 'Projeto independente voltado à criação de jogos e experiências interativas. O Arcade Age reúne ideias, protótipos e jogos autorais em um espaço próprio, conectando narrativa, game design e desenvolvimento.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Games', 'Game Design', 'Narrativa', 'Desenvolvimento'],
+    impact: 'Projeto independente',
+    medal: '🎮',
+    year: '2026',
+    isInternational: false,
+    filterTags: ['Games', 'Desenvolvimento'],
+    links: [{ label: 'Arcade Age', url: 'https://arcadeage.vercel.app/' }],
+  },
   {
     id: 'destinai',
     title: 'DestinAI',
@@ -213,7 +348,7 @@ export const PROJECTS: Project[] = [
     shortDesc:
       'Plataforma digital conectando produtores rurais, compradores institucionais e logística.',
     fullDesc:
-      'Plataforma digital vencedora do Impulso Regional 2024 que conecta produtores rurais, compradores institucionais e serviços de logística em um único ecossistema. Desenvolvida com React, TypeScript e Python, a solução inclui chatbot WhatsApp para acesso simplificado, dashboard de gestão e sistema de matchmaking entre oferta e demanda. O projeto promove o desenvolvimento local e a transparência na cadeia agroalimentar.',
+      'Projeto vencedor do desafio Rotas de Integração – Centro-Oeste, promovido pela Enap em 2024. A plataforma conecta compradores institucionais a produtores locais e propõe um assistente virtual via WhatsApp para facilitar o acesso à solução.',
     image: `${import.meta.env.BASE_URL}projects/raizesgo.svg`,
     tags: [
       'React',
@@ -226,7 +361,7 @@ export const PROJECTS: Project[] = [
       'GovTech',
       'AgroTech',
     ],
-    impact: '🥇 1º Lugar Impulso Regional 2024',
+    impact: '🥇 1º lugar — Rotas de Integração 2024',
     medal: '🥇',
     year: '2024',
     isInternational: false,
@@ -255,12 +390,12 @@ export const PROJECTS: Project[] = [
     category: 'Sustentabilidade',
     shortDesc: 'MVP gamificado para reciclagem e educação ambiental.',
     fullDesc:
-      'MVP gamificado vencedor do Hack Frost NL 2.0, uma competição internacional de inovação. O aplicativo transforma a reciclagem e a educação ambiental em uma experiência engajadora, com sistema de pontuação, desafios e recompensas. A solução promove mudança de comportamento através de mecânicas de jogo aplicadas à sustentabilidade.',
+      'Solução gamificada de sustentabilidade reconhecida no Hack Frost NL 2.0. O projeto explora como mecânicas de jogo podem apoiar a reciclagem e a educação ambiental.',
     image: `${import.meta.env.BASE_URL}projects/reclapp.svg`,
     tags: ['Gamificação', 'Reciclagem', 'Educação Ambiental', 'React', 'UX/UI'],
     impact: '🥇 1º Lugar Hack Frost NL 2.0',
     medal: '🥇',
-    year: '2024',
+    year: '2022',
     isInternational: true,
     filterTags: ['Sustentabilidade', 'Games', '1º Lugar', 'Top 3', 'Internacionais'],
     links: [{ label: 'Devpost', url: 'https://devpost.com/software/reclapp/updates/318345' }],
@@ -271,10 +406,10 @@ export const PROJECTS: Project[] = [
     category: 'Educação',
     shortDesc: 'Plataforma colaborativa de aprendizagem antirracista.',
     fullDesc:
-      'Plataforma colaborativa de aprendizagem antirracista contemplada com investimento. O projeto cria um espaço digital para educação, reflexão e ação contra o racismo, utilizando narrativas interativas, conteúdo educacional e ferramentas de engajamento comunitário para promover inclusão e diversidade.',
+      'Acervo virtual de práticas de aprendizagem decoloniais e antirracistas, criado para valorizar a diversidade cultural e apoiar educadores e comunidades. O projeto conquistou o 1º lugar no GiraLab Hackathon, em 2022, e teve continuidade por meio do GiraLab.',
     image: `${import.meta.env.BASE_URL}projects/giro.svg`,
     tags: ['Educação', 'Impacto Social', 'Antirracismo', 'UX/UI', 'Plataforma'],
-    impact: '🏆 Projeto contemplado com investimento',
+    impact: '🥇 1º lugar — GiraLab Hackathon 2022',
     medal: '🏆',
     year: '2025',
     isInternational: false,
@@ -287,10 +422,10 @@ export const PROJECTS: Project[] = [
     category: 'Sustentabilidade',
     shortDesc: 'Solução inspirada em ciência e dados da NASA para conexões ambientais globais.',
     fullDesc:
-      'Projeto classificado como Global Nominee no NASA Space Apps Challenge 2024 e finalista regional em Barueri/SP. A solução utiliza dados científicos e de satélite da NASA para criar visualizações interativas que conectam fenômenos ambientais globais a impactos locais, promovendo conscientização e ação climática.',
+      'Projeto da equipe Space6, finalista regional em Barueri no NASA Space Apps Challenge 2024. A proposta utiliza dados abertos e observações ambientais para aproximar temas científicos de impactos locais.',
     image: `${import.meta.env.BASE_URL}projects/earth-connections.svg`,
     tags: ['NASA', 'Dados', 'Sustentabilidade', 'Visualização', 'Full Stack'],
-    impact: '🌎 Global Nominee NASA Space Apps Challenge 2024',
+    impact: '🌎 Finalista regional — NASA Space Apps Challenge 2024',
     medal: '🌎',
     year: '2024',
     isInternational: true,
@@ -331,12 +466,12 @@ export const PROJECTS: Project[] = [
   {
     id: 'greenhat',
     title: 'GreenHat',
-    category: 'IA',
-    shortDesc: 'Solução de cibersegurança com IA e impacto social.',
+    category: 'Educação Financeira',
+    shortDesc: 'Projeto de educação sobre criptomoedas e incentivo à participação feminina em investimentos.',
     fullDesc:
-      'Projeto vencedor do prêmio "Most Courageous Hack #1" no TechTogether Miami. Uma solução de cibersegurança com foco em IA que combina tecnologia e impacto social, protegendo usuários vulneráveis e promovendo segurança digital. O projeto destacou-se pela coragem e inovação na abordagem de problemas reais.',
+      'Aplicativo desenvolvido para o TechTogether Miami, reconhecido com o prêmio Most Courageous Hack #1. A proposta combina educação sobre criptomoedas com incentivo à participação feminina em investimentos.',
     image: `${import.meta.env.BASE_URL}projects/greenhat.svg`,
-    tags: ['Cibersegurança', 'IA', 'Impacto Social', 'Proteção'],
+    tags: ['Educação Financeira', 'Criptomoedas', 'Inclusão', 'Investimentos'],
     impact: '🏆 Winner Most Courageous Hack #1 TechTogether Miami',
     medal: '🏆',
     year: '2024',
@@ -348,9 +483,9 @@ export const PROJECTS: Project[] = [
     id: 'ium',
     title: 'ium',
     category: 'UX/UI',
-    shortDesc: 'Plataforma de inclusão e visibilidade LGBTQIA+ através de tecnologia.',
+    shortDesc: 'Solução de monitoramento fisiológico para pessoas trans e travestis em terapia hormonal.',
     fullDesc:
-      'Plataforma desenvolvida para o Hacka Pride 2023, classificada em 2º lugar. A solução promove inclusão e visibilidade LGBTQIA+ através de tecnologia, com foco em UX/UI acessível e impacto social. O projeto combina design sensitivo, navegação intuitiva e conteúdo relevante para a comunidade.',
+      'Solução desenvolvida para o Hacka Pride 2023 e premiada em 2º lugar. O ium propõe monitoramento fisiológico para pessoas trans e travestis em terapia hormonal, com foco em cuidado e acompanhamento.',
     image: `${import.meta.env.BASE_URL}projects/ium.svg`,
     tags: ['UX/UI', 'Acessibilidade', 'Impacto Social', 'Design'],
     impact: '🥈 2º Lugar Hacka Pride 2023',
@@ -364,9 +499,9 @@ export const PROJECTS: Project[] = [
     id: 'equipa-tech',
     title: 'Equipa Tech',
     category: 'Desenvolvimento',
-    shortDesc: 'Plataforma conectando mulheres a oportunidades de tecnologia.',
+    shortDesc: 'Proposta para ampliar o acesso a equipamentos e internet para estudantes de tecnologia.',
     fullDesc:
-      'Plataforma desenvolvida para o Potência Hack 2023, classificada em 2º lugar. A solução conecta mulheres a oportunidades de tecnologia, oferecendo mentoria, networking e recursos de capacitação. O projeto promove inclusão digital e empoderamento feminino no ecossistema tech.',
+      'Projeto premiado em 2º lugar no Potência Hack 2023. A Equipa Tech propõe ampliar o acesso a equipamentos e internet para estudantes de tecnologia, apoiando a continuidade dos estudos e a formação profissional.',
     image: `${import.meta.env.BASE_URL}projects/equipa-tech.svg`,
     tags: ['Desenvolvimento', 'Impacto Social', 'Mulheres em Tech', 'Plataforma'],
     impact: '🥈 2º Lugar Potência Hack 2023',
@@ -378,11 +513,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'infinitour',
-    title: 'Infinitour',
+    title: 'Infinit Tour',
     category: 'UX/UI',
     shortDesc: 'Plataforma de turismo com experiências personalizadas e interativas.',
     fullDesc:
-      'Plataforma de turismo desenvolvida para o Hackatour Cataratas 2022, classificada em 2º lugar. A solução cria experiências turísticas personalizadas e interativas, conectando viajantes a atrações locais com foco em sustentabilidade e desenvolvimento regional. Inclui mapas interativos, recomendações e gamificação.',
+      'Projeto premiado em 2º lugar no Hackatour Cataratas 2022. Contribuí com UI/UX Design, incluindo desenvolvimento visual e prototipação da solução de turismo.',
     image: `${import.meta.env.BASE_URL}projects/infinitour.svg`,
     tags: ['UX/UI', 'Desenvolvimento', 'Turismo', 'Gamificação', 'Mapas'],
     impact: '🥈 2º Lugar Hackatour Cataratas 2022',
@@ -412,11 +547,11 @@ export const PROJECTS: Project[] = [
     id: 'pegabot-extension',
     title: 'Pegabot Extension',
     category: 'IA',
-    shortDesc: 'Extensão de navegador para detectar e analisar bots em redes sociais.',
+    shortDesc: 'Extensão de navegador criada para o ecossistema Pegabot.',
     fullDesc:
-      'Extensão de navegador desenvolvida para o Hackathon Pegabot, recebeu Menção Honrosa. A ferramenta detecta e analisa comportamentos de bots em redes sociais, combinando IA e análise de padrões para combater desinformação. Inclui dashboard de análise e alertas em tempo real.',
+      'Extensão desenvolvida durante o Hackathon Pegabot, reconhecida com Menção Honrosa. Minha contribuição incluiu suporte em front-end com HTML e CSS e prototipação no Figma.',
     image: `${import.meta.env.BASE_URL}projects/pegabot-extension.svg`,
-    tags: ['IA', 'Desenvolvimento', 'Segurança', 'Análise de Dados'],
+    tags: ['Desenvolvimento', 'Front-end', 'Figma', 'Cidadania Digital'],
     impact: '🎖 Menção Honrosa Hackathon Pegabot',
     medal: '🎖',
     year: '2023',
@@ -504,10 +639,10 @@ export const UNIFIED_FILTERS = [
 export const ACHIEVEMENT_STATS = [
   {
     emoji: '🏆',
-    value: '50+',
-    label: 'Participações em Competições',
+    value: '10+',
+    label: 'Pódios e reconhecimentos',
     description:
-      'Hackathons, ideathons, game jams e desafios nacionais e internacionais de tecnologia, inovação e empreendedorismo.',
+      'Premiações e colocações de destaque em hackathons, ideathons, desafios de inovação e jogos.',
   },
   {
     emoji: '🥇',
@@ -518,17 +653,17 @@ export const ACHIEVEMENT_STATS = [
   },
   {
     emoji: '🌎',
-    value: '7+',
-    label: 'Projetos Internacionais',
+    value: '4+',
+    label: 'Países em competições',
     description:
-      'Projetos apresentados e desenvolvidos em competições e desafios globais de tecnologia e inovação.',
+      'Experiências em desafios com equipes e comunidades do Brasil, Estados Unidos, Canadá e Portugal.',
   },
   {
-    emoji: '💡',
-    value: '20+',
-    label: 'MVPs Desenvolvidos',
+    emoji: '🎮',
+    value: '2022+',
+    label: 'Atuação em comunidades',
     description:
-      'Protótipos funcionais criados durante hackathons, pesquisas e desafios de inovação.',
+      'Participação contínua em hackathons, game jams, projetos autorais e iniciativas de tecnologia.',
   },
   {
     emoji: '🤝',
@@ -540,7 +675,7 @@ export const ACHIEVEMENT_STATS = [
 ]
 
 export const TECH_INTRO_TEXT =
-  'Minha jornada combina desenvolvimento de software, design, inteligência artificial e resolução de problemas. Através de projetos, hackathons e estudos contínuos, sigo expandindo minhas habilidades para construir soluções digitais cada vez mais completas.'
+  'Sou desenvolvedora Full Stack Júnior, formada em ADS, estudante de Marketing e Embaixadora Estudantil do Google. Trabalho em projetos digitais que conectam tecnologia, experiência do usuário, comunicação e criatividade.'
 
 export const TECHNOLOGIES: TechnologyCategory[] = [
   {
