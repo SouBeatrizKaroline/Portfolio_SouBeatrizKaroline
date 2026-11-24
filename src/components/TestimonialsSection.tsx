@@ -16,7 +16,7 @@ export function TestimonialsSection() {
             O que colegas, mentores e pessoas com quem trabalhei dizem
           </h3>
           <p className="text-slate-300 text-sm sm:text-base font-light">
-            Resumos de recomendações e publicações de colegas sobre projetos, hackathons e iniciativas de tecnologia.
+            Recomendações e relatos de colegas do LinkedIn, resumidos em primeira pessoa.
           </p>
         </div>
 
