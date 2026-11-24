@@ -61,7 +61,7 @@ export interface Testimonial {
 export const HERO_STATS = [
   { value: '70+', label: 'Hackathons', sub: 'Participações ao longo da trajetória' },
   { value: '10+', label: 'Pódios', sub: 'Em hackathons e desafios' },
-  { value: '4+', label: 'Países', sub: 'Experiências em equipes internacionais' },
+  { value: '5+', label: 'Países', sub: 'Experiências em equipes internacionais' },
   { value: '4', label: 'Frentes criativas', sub: 'Desenvolvimento, UX, produto e games' },
 ]
 
@@ -968,10 +968,10 @@ export const ACHIEVEMENT_STATS = [
   },
   {
     emoji: '🌎',
-    value: '4+',
+    value: '5+',
     label: 'Países em competições',
     description:
-      'Experiências em desafios com equipes e comunidades do Brasil, Estados Unidos, Canadá e Portugal.',
+      'Experiências em desafios com equipes e comunidades do Brasil, Estados Unidos, Canadá, Portugal e Reino Unido (Inglaterra).',
   },
   {
     emoji: '🎮',
