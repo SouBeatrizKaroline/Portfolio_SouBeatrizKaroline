@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">TURNO</title>
+  <desc id="desc">Capa editorial: Organize o dia no seu próprio ritmo.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#dfb9ee" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#36283f"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#dfb9ee" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#dfb9ee" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#dfb9ee" stroke-width="5"/>
+  <text x="64" y="207" fill="#dfb9ee" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">GAMES / DESIGN DE ROTINA</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">TURNO</text>
+  <text x="64" y="390" fill="#dfb9ee" font-family="Arial,sans-serif" font-size="27">Organize o dia no seu próprio ritmo.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#dfb9ee" fill="none" stroke="#dfb9ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="36" y="47" width="165" height="142" rx="13"/>
+    <path d="M36 84H201M75 31V63M163 31V63M63 111H88V135H63ZM110 111H135V135H110ZM63 153H88V177H63Z"/>
+    <circle cx="176" cy="155" r="35"/>
+    <path d="M176 136V157L188 165"/>
+  </g>
+  <path d="M64 520H1136" stroke="#dfb9ee" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>

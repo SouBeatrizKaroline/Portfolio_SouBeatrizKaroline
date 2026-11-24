@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Lumi &amp; the Lost Stars</title>
+  <desc id="desc">Capa editorial: Uma pequena gata devolve luz à floresta.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#f0d394" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#233343"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#f0d394" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#f0d394" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#f0d394" stroke-width="5"/>
+  <text x="64" y="207" fill="#f0d394" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">GAMES / PLATAFORMA 2D</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Lumi</text>
+  <text x="64" y="368" fill="#fff" fill-opacity=".85" font-family="Arial,sans-serif" font-size="44" font-weight="700">&amp; the Lost Stars</text>
+  <text x="64" y="425" fill="#f0d394" font-family="Arial,sans-serif" font-size="27">Uma pequena gata devolve luz à floresta.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#f0d394" fill="none" stroke="#f0d394" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27 211H207M37 193L67 146L53 146L76 110L98 146H86L111 193ZM151 194L173 160L164 160L188 120L210 160H200L222 194Z"/>
+    <path d="M91 162L90 123L107 135Q120 130 133 135L151 123L150 163Q144 181 120 182Q96 180 91 162ZM107 155H109M131 155H133"/>
+    <path d="M121 26L130 45L151 48L136 63L139 84L121 74L102 84L106 63L91 48L112 45Z"/>
+    <path d="M57 61V81M47 71H67M184 65V87M173 76H195"/>
+  </g>
+  <path d="M64 520H1136" stroke="#f0d394" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>
