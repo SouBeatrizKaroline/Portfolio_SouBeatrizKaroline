@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Rutherfox</title>
+  <desc id="desc">Capa editorial: Uma raposa acompanha o rastro da explosão.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#bcbaff" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#272747"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#bcbaff" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#bcbaff" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#bcbaff" stroke-width="5"/>
+  <text x="64" y="207" fill="#bcbaff" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">GAMES / ROTEIRO</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Rutherfox</text>
+  <text x="64" y="390" fill="#bcbaff" font-family="Arial,sans-serif" font-size="27">Uma raposa acompanha o rastro da explosão.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#bcbaff" fill="none" stroke="#bcbaff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 136L39 44L100 90Q120 84 140 90L201 44L188 136L172 170L119 201L66 170Z"/>
+    <path d="M52 136L80 119L119 175L159 119L188 136M81 141L98 146M141 146L159 141M110 176L119 184L128 176Z"/>
+    <path d="M120 32V57M108 44H132M33 176V196M23 186H43"/>
+  </g>
+  <path d="M64 520H1136" stroke="#bcbaff" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>

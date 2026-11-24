@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">NortIA</title>
+  <desc id="desc">Capa editorial: Descubra gargalos e planeje melhorias.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#c8b1fa" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#2c2645"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#c8b1fa" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#c8b1fa" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#c8b1fa" stroke-width="5"/>
+  <text x="64" y="207" fill="#c8b1fa" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">PRODUTO / INTELIGÊNCIA DE PROCESSOS</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">NortIA</text>
+  <text x="64" y="390" fill="#c8b1fa" font-family="Arial,sans-serif" font-size="27">Descubra gargalos e planeje melhorias.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#c8b1fa" fill="none" stroke="#c8b1fa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="24" y="41" width="73" height="47" rx="10"/>
+    <rect x="143" y="41" width="73" height="47" rx="10"/>
+    <rect x="143" y="153" width="73" height="47" rx="10"/>
+    <path d="M97 64H143M179 88V153M61 88V176H143M169 123L179 134L189 123M117 54L128 64L117 74"/>
+    <path d="M180 160L197 177L180 194L163 177Z" stroke-opacity=".65"/>
+  </g>
+  <path d="M64 520H1136" stroke="#c8b1fa" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Qubit Stories</title>
+  <desc id="desc">Capa editorial: Histórias para explorar o mundo quântico.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#d8b8ff" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#312741"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#d8b8ff" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#d8b8ff" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#d8b8ff" stroke-width="5"/>
+  <text x="64" y="207" fill="#d8b8ff" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">EDUCAÇÃO / COMPUTAÇÃO QUÂNTICA</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Qubit Stories</text>
+  <text x="64" y="390" fill="#d8b8ff" font-family="Arial,sans-serif" font-size="27">Histórias para explorar o mundo quântico.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#d8b8ff" fill="none" stroke="#d8b8ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 99C89 76 54 76 27 83V171C63 163 95 169 120 190C147 169 180 163 213 171V83C185 76 151 76 120 99V190M48 105Q78 103 98 116M48 127Q78 125 98 138M145 117Q169 104 192 105M145 140Q169 127 192 128"/>
+    <ellipse cx="120" cy="54" rx="42" ry="12" transform="rotate(-23 120 54)"/>
+    <ellipse cx="120" cy="54" rx="42" ry="12" transform="rotate(23 120 54)"/>
+    <circle cx="120" cy="54" r="4"/>
+  </g>
+  <path d="M64 520H1136" stroke="#d8b8ff" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>

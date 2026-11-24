@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Ground Zero</title>
+  <desc id="desc">Capa editorial: Entre ciclos de dia e noite.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#b6caff" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#252e49"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#b6caff" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#b6caff" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#b6caff" stroke-width="5"/>
+  <text x="64" y="207" fill="#b6caff" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">GAMES / PLATAFORMA</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Ground Zero</text>
+  <text x="64" y="390" fill="#b6caff" font-family="Arial,sans-serif" font-size="27">Entre ciclos de dia e noite.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#b6caff" fill="none" stroke="#b6caff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="103" r="70"/>
+    <path d="M120 33V173M120 55Q145 79 141 103T120 151" stroke-opacity=".4"/>
+    <circle cx="91" cy="103" r="16"/>
+    <path d="M91 76V70M91 136V130M64 103H58M124 103H119M71 83L67 79M71 123L67 127M154 85A22 22 0 1 0 176 114A21 21 0 0 1 154 85Z"/>
+    <path d="M37 207H84V190H144V207H201"/>
+  </g>
+  <path d="M64 520H1136" stroke="#b6caff" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>

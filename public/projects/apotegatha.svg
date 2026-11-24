@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Apotegatha</title>
+  <desc id="desc">Capa editorial: Poções, clientes e escolhas difíceis.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#f6b5da" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#40263d"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#f6b5da" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#f6b5da" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#f6b5da" stroke-width="5"/>
+  <text x="64" y="207" fill="#f6b5da" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">GAMES / SIMULAÇÃO</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Apotegatha</text>
+  <text x="64" y="390" fill="#f6b5da" font-family="Arial,sans-serif" font-size="27">Poções, clientes e escolhas difíceis.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#f6b5da" fill="none" stroke="#f6b5da" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 131H199M62 133Q57 180 86 199Q120 220 156 199Q186 179 183 133M85 202L74 220M156 202L166 220"/>
+    <path d="M65 104L66 53L96 76Q119 64 143 76L172 53L173 104Q151 124 120 124Q86 124 65 104Z"/>
+    <path d="M92 96H102M138 96H148M116 108H124M54 175L40 164M190 175L205 164"/>
+    <circle cx="122" cy="41" r="8"/>
+    <circle cx="144" cy="22" r="5"/>
+  </g>
+  <path d="M64 520H1136" stroke="#f6b5da" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>

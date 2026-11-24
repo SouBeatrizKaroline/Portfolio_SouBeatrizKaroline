@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Ghost Route: Quantum Rescue Game</title>
+  <desc id="desc">Capa editorial: Sinais quânticos em uma missão de resgate.</desc>
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#a2d9ff" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#161d37"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="260" r="310" fill="#a2d9ff" opacity=".04"/>
+  <circle cx="930" cy="295" r="220" fill="none" stroke="#a2d9ff" stroke-opacity=".13"/>
+  <path d="M64 160H145" stroke="#a2d9ff" stroke-width="5"/>
+  <text x="64" y="207" fill="#a2d9ff" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">GAMES / COMPUTAÇÃO QUÂNTICA</text>
+  <text x="60" y="315" fill="#fff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-2">Ghost Route</text>
+  <text x="64" y="366" fill="#fff" fill-opacity=".85" font-family="Arial,sans-serif" font-size="44" font-weight="700">Quantum Rescue Game</text>
+  <text x="64" y="425" fill="#a2d9ff" font-family="Arial,sans-serif" font-size="27">Sinais quânticos em uma missão de resgate.</text>
+  <g transform="translate(790 185) scale(1.25)" color="#a2d9ff" fill="none" stroke="#a2d9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="110" r="79"/>
+    <circle cx="120" cy="110" r="54" stroke-opacity=".55"/>
+    <circle cx="120" cy="110" r="26" stroke-opacity=".55"/>
+    <path d="M120 110L172 49M32 110H208M120 23V197" stroke-opacity=".5"/>
+    <path d="M68 165L91 127L133 137L158 92L193 82" stroke-dasharray="5 9"/>
+    <circle cx="158" cy="92" r="7"/>
+    <path d="M29 218Q45 208 61 218T93 218T125 218T157 218T189 218T221 218"/>
+  </g>
+  <path d="M64 520H1136" stroke="#a2d9ff" stroke-opacity=".2"/>
+  <text x="64" y="563" fill="#fff" fill-opacity=".65" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">BEATRIZ KAROLINE / MEUS PROJETOS</text>
+</svg>
