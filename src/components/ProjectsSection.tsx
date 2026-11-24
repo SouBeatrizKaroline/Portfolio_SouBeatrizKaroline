@@ -1,13 +1,11 @@
 import { useState, useMemo } from 'react'
 import { PROJECTS, UNIFIED_FILTERS, Project } from '@/data/portfolio-data'
 import { ProjectModal } from './ProjectModal'
-import { useInView } from '@/hooks/use-in-view'
 import { ExternalLink, Award, Info, MapPin, Calendar } from 'lucide-react'
 
 export function ProjectsSection() {
   const [activeFilter, setActiveFilter] = useState<string>('Todos')
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
-  const { ref, isInView } = useInView()
 
   const filteredProjects = useMemo(
     () =>
@@ -23,7 +21,7 @@ export function ProjectsSection() {
 
   return (
     <section id="projetos" className="py-24 px-4 sm:px-6 bg-[#121218] relative">
-      <div className="max-w-7xl mx-auto" ref={ref}>
+      <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-xs font-bold uppercase tracking-widest text-[#ffd54f] mb-2">
             Portfólio em Ação
@@ -56,13 +54,10 @@ export function ProjectsSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project, index) => (
+          {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className={`bg-[#1e1e2d] rounded-2xl border border-white/10 overflow-hidden hover:border-[#ffd54f]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl flex flex-col group will-change-transform ${
-                isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-              }`}
-              style={{ transitionDelay: `${index * 80}ms` }}
+              className="bg-[#1e1e2d] rounded-2xl border border-white/10 overflow-hidden hover:border-[#ffd54f]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl flex flex-col group"
             >
               <div className="relative aspect-video overflow-hidden bg-[#121218]">
                 <img
