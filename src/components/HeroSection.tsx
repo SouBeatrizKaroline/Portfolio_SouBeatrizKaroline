@@ -33,11 +33,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl font-light">
-            Sou uma profissional multidisciplinar e conecto{' '}
-            <strong className="text-white font-semibold">tecnologia</strong>,{' '}
-            <strong className="text-[#ff8a65] font-semibold">saúde</strong> e{' '}
-            <strong className="text-[#ffd54f] font-semibold">criatividade</strong> para transformar
-            problemas reais em soluções digitais de alto impacto.
+            Sou desenvolvedora Full Stack Júnior, formada em ADS, estudante de Marketing e Embaixadora Estudantil do Google. Crio soluções digitais que conectam tecnologia, experiência do usuário e criatividade.
           </p>
 
           {/* Action Buttons */}
