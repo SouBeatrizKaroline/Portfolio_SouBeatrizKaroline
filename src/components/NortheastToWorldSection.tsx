@@ -25,6 +25,12 @@ export function NortheastToWorldSection() {
       desc: 'Participação em competição internacional de tecnologia e inovação, colaborando em desafios globais de desenvolvimento de soluções digitais.',
     },
     {
+      country: 'Portugal',
+      flag: '🇵🇹',
+      note: 'Qollab × IonQ Global Hackathon 2026',
+      desc: '1º lugar com Ghost Route: Quantum Rescue Game no núcleo MPC (Minho, Porto e Coimbra), pela equipe QuantGirls.',
+    },
+    {
       country: 'Índia',
       flag: '🇮🇳',
       note: 'Hackathon Internacional',
@@ -101,6 +107,7 @@ export function NortheastToWorldSection() {
               { x: 80, y: 40 },
               { x: 160, y: 95 },
               { x: 240, y: 30 },
+              { x: 261, y: 52 },
               { x: 320, y: 70 },
             ].map((dot, i) => (
               <g key={i}>
@@ -141,7 +148,7 @@ export function NortheastToWorldSection() {
         </div>
 
         {/* Global Connection Badges */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 max-w-5xl mx-auto mb-12">
           {flags.map((f, idx) => (
             <div
               key={idx}
