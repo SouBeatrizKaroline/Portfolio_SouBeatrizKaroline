@@ -6,7 +6,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from '@/components/ui/dialog'
-import { ExternalLink, Award, Tag } from 'lucide-react'
+import { ExternalLink, Award, Info, Tag } from 'lucide-react'
 
 interface ProjectModalProps {
   project: Project | null
@@ -38,7 +38,11 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             </p>
 
             <div className="flex items-center gap-2 p-3 rounded-xl bg-[#ffd54f]/10 border border-[#ffd54f]/30 text-[#ffd54f] text-xs font-bold mb-4">
-              <Award className="w-4 h-4 shrink-0" />
+              {project.isAwarded ? (
+                <Award className="w-4 h-4 shrink-0" />
+              ) : (
+                <Info className="w-4 h-4 shrink-0" />
+              )}
               <span>{project.impact}</span>
             </div>
 

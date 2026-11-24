@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react'
 import { PROJECTS, UNIFIED_FILTERS, Project } from '@/data/portfolio-data'
 import { ProjectModal } from './ProjectModal'
 import { useInView } from '@/hooks/use-in-view'
-import { ExternalLink, Award, MapPin, Calendar } from 'lucide-react'
+import { ExternalLink, Award, Info, MapPin, Calendar } from 'lucide-react'
 
 export function ProjectsSection() {
   const [activeFilter, setActiveFilter] = useState<string>('Todos')
@@ -16,7 +16,7 @@ export function ProjectsSection() {
         : activeFilter === 'Internacional'
           ? PROJECTS.filter((p) => p.isInternational)
           : activeFilter === 'Premiados'
-            ? PROJECTS.filter((p) => p.medal && p.medal.trim() !== '')
+            ? PROJECTS.filter((p) => p.isAwarded)
             : PROJECTS.filter((p) => p.filterTags.includes(activeFilter)),
     [activeFilter],
   )
@@ -95,7 +95,11 @@ export function ProjectsSection() {
 
                 <div>
                   <div className="flex items-center gap-1.5 text-[11px] font-semibold text-[#ff8a65] mb-3 bg-[#ff8a65]/10 px-2.5 py-1.5 rounded-lg border border-[#ff8a65]/20">
-                    <Award className="w-3.5 h-3.5 shrink-0 text-[#ffd54f]" />
+                    {project.isAwarded ? (
+                      <Award className="w-3.5 h-3.5 shrink-0 text-[#ffd54f]" />
+                    ) : (
+                      <Info className="w-3.5 h-3.5 shrink-0 text-[#ffd54f]" />
+                    )}
                     <span className="truncate">{project.impact}</span>
                   </div>
 
