@@ -16,8 +16,7 @@ export function TestimonialsSection() {
             O que colegas, mentores e pessoas com quem trabalhei dizem
           </h3>
           <p className="text-slate-300 text-sm sm:text-base font-light">
-            Recomendações públicas recebidas ao longo da minha trajetória em hackathons, projetos,
-            comunidades e iniciativas de tecnologia.
+            Resumos de recomendações e publicações de colegas sobre projetos, hackathons e iniciativas de tecnologia.
           </p>
         </div>
 
@@ -33,7 +32,7 @@ export function TestimonialsSection() {
               <div>
                 <Quote className="w-8 h-8 text-[#7b1fa2] mb-4 opacity-80" />
                 <p className="text-slate-200 text-sm sm:text-base font-light leading-relaxed mb-6 italic">
-                  "{t.text}"
+                  {t.text}
                 </p>
               </div>
 
@@ -43,6 +42,16 @@ export function TestimonialsSection() {
                 </div>
                 <div className="text-xs text-slate-400 font-light mt-0.5">{t.role}</div>
                 <div className="text-xs text-[#ff8a65] font-medium mt-1">{t.context}</div>
+                {t.linkedin && (
+                  <a
+                    href={t.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-2 text-xs text-slate-300 underline underline-offset-2 hover:text-[#ffd54f]"
+                  >
+                    {t.fromPublicPost ? 'Fonte no LinkedIn' : 'Recomendações no LinkedIn'}
+                  </a>
+                )}
               </div>
             </div>
           ))}

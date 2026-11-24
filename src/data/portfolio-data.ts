@@ -56,12 +56,13 @@ export interface Testimonial {
   context: string
   text: string
   linkedin?: string
+  fromPublicPost?: boolean
 }
 
 export const HERO_STATS = [
   { value: '70+', label: 'Hackathons', sub: 'Participações ao longo da trajetória' },
   { value: '10+', label: 'Pódios', sub: 'Em hackathons e desafios' },
-  { value: '5+', label: 'Países', sub: 'Experiências em equipes internacionais' },
+  { value: '6+', label: 'Países', sub: 'Experiências em equipes internacionais' },
   { value: '4', label: 'Frentes criativas', sub: 'Desenvolvimento, UX, produto e games' },
 ]
 
@@ -968,10 +969,10 @@ export const ACHIEVEMENT_STATS = [
   },
   {
     emoji: '🌎',
-    value: '5+',
+    value: '6+',
     label: 'Países em competições',
     description:
-      'Experiências em desafios com equipes e comunidades do Brasil, Estados Unidos, Canadá, Portugal e Reino Unido (Inglaterra).',
+      'Experiências em desafios com equipes e comunidades do Brasil, Estados Unidos, Canadá, Portugal, Reino Unido (Inglaterra) e Índia.',
   },
   {
     emoji: '🎮',
@@ -1064,6 +1065,42 @@ export const TESTIMONIALS: Testimonial[] = [
     context: 'Hackathon Conexão Ancestral',
     text: 'Destacou minha experiência em hackathons, a disposição para compartilhar conhecimentos e o cuidado em incentivar a participação de todo o time.',
     linkedin: 'https://www.linkedin.com/in/beatrizkcs/',
+  },
+  {
+    id: '3',
+    name: 'Daniel Jasmelino',
+    role: 'Colega de equipe',
+    context: 'Capiba Quest · Ideathon P&D Design',
+    text: 'Agradeceu a parceria no Capiba Quest e destacou como reunir desenvolvimento, design e negócio ajudou a equipe a validar o jogo com uma demo jogável.',
+    linkedin: 'https://pt.linkedin.com/posts/daniel-jasmelino_ideathon2026-capibaquest-osnoobs20-activity-7528528599281459200-5402',
+    fromPublicPost: true,
+  },
+  {
+    id: '4',
+    name: 'Kesly Silva',
+    role: 'Colega de equipe',
+    context: 'CONECTA · Hackathon Conexão Ancestral',
+    text: 'Agradeceu por eu compartilhar minha experiência durante seu primeiro hackathon e destacou as trocas de ideias na construção do CONECTA.',
+    linkedin: 'https://br.linkedin.com/in/kesly-silva',
+    fromPublicPost: true,
+  },
+  {
+    id: '5',
+    name: 'Monique Cardoso',
+    role: 'Colega de equipe',
+    context: 'Don’t Skip Challenge · Adapta Summit',
+    text: 'Agradeceu a parceria da equipe e relembrou o terceiro lugar na primeira etapa e a oportunidade de apresentar a solução na final do Adapta Summit.',
+    linkedin: 'https://br.linkedin.com/in/moniquercardoso/en',
+    fromPublicPost: true,
+  },
+  {
+    id: '6',
+    name: 'Pedro Jansen Guimarães',
+    role: 'Colega de equipe',
+    context: 'Space Mining Challenge',
+    text: 'Elogiou o trabalho da equipe e destacou a combinação de pesquisa em mineração espacial com uma proposta de negócio.',
+    linkedin: 'https://br.linkedin.com/in/pedro-jansen-guimaraes',
+    fromPublicPost: true,
   },
 ]
 
