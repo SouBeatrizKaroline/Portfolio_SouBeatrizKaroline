@@ -58,7 +58,7 @@ export interface Testimonial {
 }
 
 export const HERO_STATS = [
-  { value: '≈70', label: 'Hackathons', sub: 'Participações ao longo da trajetória' },
+  { value: '70+', label: 'Hackathons', sub: 'Participações ao longo da trajetória' },
   { value: '10+', label: 'Pódios', sub: 'Em hackathons e desafios' },
   { value: '4+', label: 'Países', sub: 'Experiências em equipes internacionais' },
   { value: '4', label: 'Frentes criativas', sub: 'Desenvolvimento, UX, produto e games' },
@@ -691,7 +691,7 @@ export const UNIFIED_FILTERS = [
 export const ACHIEVEMENT_STATS = [
   {
     emoji: '🏆',
-    value: '≈70',
+    value: '70+',
     label: 'Hackathons',
     description:
       'Participações em maratonas de inovação no Brasil e em equipes e competições internacionais, desde 2022.',
