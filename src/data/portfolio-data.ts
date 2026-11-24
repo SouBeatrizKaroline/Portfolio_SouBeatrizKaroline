@@ -975,10 +975,9 @@ export const ACHIEVEMENT_STATS = [
   },
   {
     emoji: '🎮',
-    value: '10+',
-    label: 'Pódios e reconhecimentos',
-    description:
-      'Premiações e colocações de destaque em hackathons, ideathons, desafios de inovação e jogos.',
+    value: String(PROJECTS.filter((project) => project.category === 'Games').length),
+    label: 'Jogos no portfólio',
+    description: 'Jogos autorais e em equipe, desenvolvidos em game jams e iniciativas independentes.',
   },
   {
     emoji: '🤝',
