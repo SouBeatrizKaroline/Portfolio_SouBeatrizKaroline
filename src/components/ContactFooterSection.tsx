@@ -25,8 +25,8 @@ export function ContactFooterSection({ onTriggerCat }: ContactFooterSectionProps
           </h2>
 
           <p className="text-slate-300 text-sm sm:text-base font-light mb-8 max-w-xl mx-auto leading-relaxed">
-            Seja para desenvolvimento de projetos, consultoria de UX/Saúde Digital, mentoria ou
-            palestras, estou sempre aberta a novas conexões.
+            Estou aberta a oportunidades, projetos colaborativos e conversas sobre desenvolvimento,
+            produto digital, UX/UI e criação de jogos.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -77,6 +77,13 @@ export function ContactFooterSection({ onTriggerCat }: ContactFooterSectionProps
               <MessageCircle className="w-4 h-4 text-[#25D366]" />
               <span>WhatsApp</span>
             </a>
+          </div>
+
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[11px] text-slate-400">
+            <span className="text-slate-500">Outros espaços meus</span>
+            <a href="https://arcadeage.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#ffd54f] underline-offset-4 hover:underline transition-colors">Arcade Age</a>
+            <a href="https://aspiraqualquer.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#ffd54f] underline-offset-4 hover:underline transition-colors">Aspira Qualquer</a>
+            <a href="https://soubeatrizkaroline.github.io/EmbaixadoresEstudantisGoogle2026_Gemini/" target="_blank" rel="noopener noreferrer" className="hover:text-[#ffd54f] underline-offset-4 hover:underline transition-colors">Embaixadora Estudantil Google</a>
           </div>
         </div>
 

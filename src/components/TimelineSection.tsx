@@ -36,9 +36,7 @@ export function TimelineSection() {
             Minha História
           </h3>
           <p className="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
-            "Minha trajetória nunca foi uma linha reta. Cada etapa construiu uma nova perspectiva:
-            da engenharia e construção de soluções físicas, passando pelo cuidado humano na saúde,
-            até chegar à tecnologia, inovação e criação de produtos digitais com impacto."
+            "Minha trajetória foi se construindo entre tecnologia, criatividade e colaboração. Desde 2022, participo de hackathons, projetos digitais e iniciativas de jogos, enquanto sigo aprendendo e ampliando minha formação."
           </p>
         </div>
 
