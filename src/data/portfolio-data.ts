@@ -630,9 +630,9 @@ export const PROJECTS: Project[] = [
     imageCredit: 'Arte original do jogo publicada na minha página do itch.io.',
     tags: ['Game Design', 'Storytelling', 'Sustentabilidade', 'GameJam'],
     impact: 'Finalista — Desafio SBT | GameJamPlus 24/25',
-    medal: '',
+    medal: '🏅',
     year: '2025',
-    isAwarded: false,
+    isAwarded: true,
     isInternational: false,
     filterTags: ['Games'],
     links: [
