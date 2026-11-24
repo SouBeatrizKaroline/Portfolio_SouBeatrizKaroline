@@ -58,13 +58,20 @@ export interface Testimonial {
 }
 
 export const HERO_STATS = [
+  { value: '≈70', label: 'Hackathons', sub: 'Participações ao longo da trajetória' },
   { value: '10+', label: 'Pódios', sub: 'Em hackathons e desafios' },
   { value: '4+', label: 'Países', sub: 'Experiências em equipes internacionais' },
   { value: '4', label: 'Frentes criativas', sub: 'Desenvolvimento, UX, produto e games' },
-  { value: '2022+', label: 'Na comunidade tech', sub: 'Hackathons, ideathons e game jams' },
 ]
 
 export const TIMELINE_EVENTS: Milestone[] = [
+  {
+    year: '2016–2022',
+    title: 'Formação e vivência na área da saúde',
+    description:
+      'Estudei na Universidade Federal de Pernambuco e participei de iniciativas de humanização hospitalar e atividades acadêmicas ligadas à Informática Aplicada à Enfermagem.',
+    icon: 'Activity',
+  },
   {
     year: '2022',
     title: 'Primeiros projetos em tecnologia',
@@ -305,6 +312,51 @@ export const PROJECTS: Project[] = [
     isInternational: false,
     filterTags: ['Desenvolvimento', 'UX/UI', 'Impacto Social'],
     links: [{ label: 'Projeto', url: 'https://connectvivia.vercel.app/' }],
+  },
+  {
+    id: 'herbo',
+    title: 'Herbo',
+    category: 'Games',
+    shortDesc: 'Jogo em desenvolvimento retomado para explorar novas ideias de gameplay e narrativa.',
+    fullDesc: 'Projeto iniciado no fim de 2024 e retomado em 2026. Nesta nova etapa, estou revisitando as escolhas do jogo, testando possibilidades e reorganizando a experiência de forma independente.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Game Design', 'Desenvolvimento de Jogos', 'Narrativa', 'Projeto Independente'],
+    impact: 'Projeto em desenvolvimento',
+    medal: '🌱',
+    year: '2026',
+    isInternational: false,
+    filterTags: ['Games', 'Desenvolvimento'],
+    links: [],
+  },
+  {
+    id: 'madahao',
+    title: 'MadaHao',
+    category: 'Games',
+    shortDesc: 'Jogo educacional 2.5D com exploração, narrativa e descoberta cultural.',
+    fullDesc: 'Jogo educacional 2.5D desenvolvido para falantes de português. A experiência leva a pessoa por um campus, um livro misterioso e uma aldeia fictícia inspirada na dinastia Han Oriental.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Games', 'Educação', 'Narrativa', 'Exploração', '2.5D'],
+    impact: 'Projeto desenvolvido em 2026',
+    medal: '🎮',
+    year: '2026',
+    isInternational: false,
+    filterTags: ['Games', 'Educação'],
+    links: [],
+  },
+  {
+    id: 'polyglotrpg',
+    title: 'PolyGlotRPG',
+    category: 'Games',
+    shortDesc: 'RPG educacional para aprender idiomas enquanto explora um mundo interativo.',
+    fullDesc: 'RPG educacional interativo em 2.5D, pensado especialmente para falantes de português. A pessoa explora reinos, conversa com personagens, resolve enigmas e pratica idiomas por meio de desafios dentro do jogo.',
+    image: `${import.meta.env.BASE_URL}project-placeholder.svg`,
+    tags: ['Games', 'Educação', 'Idiomas', 'RPG', '2.5D'],
+    impact: 'Projeto desenvolvido em 2026',
+    medal: '🗺️',
+    year: '2026',
+    isInternational: false,
+    filterTags: ['Games', 'Educação'],
+    links: [],
   },
   {
     id: 'arcade-age',
@@ -639,10 +691,10 @@ export const UNIFIED_FILTERS = [
 export const ACHIEVEMENT_STATS = [
   {
     emoji: '🏆',
-    value: '10+',
-    label: 'Pódios e reconhecimentos',
+    value: '≈70',
+    label: 'Hackathons',
     description:
-      'Premiações e colocações de destaque em hackathons, ideathons, desafios de inovação e jogos.',
+      'Participações em maratonas de inovação no Brasil e em equipes e competições internacionais, desde 2022.',
   },
   {
     emoji: '🥇',
@@ -660,10 +712,10 @@ export const ACHIEVEMENT_STATS = [
   },
   {
     emoji: '🎮',
-    value: '2022+',
-    label: 'Atuação em comunidades',
+    value: '10+',
+    label: 'Pódios e reconhecimentos',
     description:
-      'Participação contínua em hackathons, game jams, projetos autorais e iniciativas de tecnologia.',
+      'Premiações e colocações de destaque em hackathons, ideathons, desafios de inovação e jogos.',
   },
   {
     emoji: '🤝',
@@ -737,59 +789,19 @@ export const TECHNOLOGIES: TechnologyCategory[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    name: 'Monique Cardoso',
-    role: 'Junior Data Scientist',
-    context: 'NASA Space Apps Challenge 2024',
-    text: 'Profissional muito colaborativa, dedicada e sempre disposta a ajudar. Sua capacidade de unir design e desenvolvimento trouxe grande valor ao time.',
+    name: 'Ines Cardinot',
+    role: 'Integrante de equipe',
+    context: 'Hackathon Conexão Ancestral',
+    text: 'Destacou minha dedicação e flexibilidade para apoiar diferentes frentes do time, além da contribuição para organizar prioridades e concluir a entrega.',
+    linkedin: 'https://www.linkedin.com/in/beatrizkcs/',
   },
   {
     id: '2',
-    name: 'Jefferson Carneiro',
-    role: 'Design Tech Lead',
-    context: 'Hackathon — Mesmo evento',
-    text: 'A Beatriz tem uma visão estratégica incrível. Liderou a arquitetura do projeto com maestria, unindo tecnologia e design de forma excepcional.',
-  },
-  {
-    id: '3',
-    name: 'Pedro Izidio',
-    role: 'Accessibility Product Designer',
-    context: 'Hackathon',
-    text: 'Trabalhar com a Beatriz é garantia de soluções criativas e um protótipo impecável. Sua energia e dedicação contagiam toda a equipe.',
-  },
-  {
-    id: '4',
-    name: 'Franciele Santos',
-    role: 'Analista de Negócios',
-    context: 'Reprograma + Santander',
-    text: 'Uma profissional multidisciplinar fora de série. Sua determinação e visão de produto colocam qualquer projeto num patamar internacional.',
-  },
-  {
-    id: '5',
-    name: 'Ana Lins',
-    role: 'Coordenadora Educacional — Gamescola',
-    context: 'Woman Game Jam',
-    text: 'A Beatriz une criatividade e técnica de forma única. Entregou narrativas interativas e mecânicas envolventes em tempo recorde no evento.',
-  },
-  {
-    id: '6',
-    name: 'Ana Paula Marcello',
-    role: 'Tradutora e Programadora de Jogos',
-    context: 'Woman Game Jam',
-    text: 'Profissional excepcional em game design e storytelling. Sua paixão por games e tecnologia resulta em experiências imersivas e memoráveis.',
-  },
-  {
-    id: '7',
-    name: 'Gabriel Vieira',
-    role: 'Cyber Security Specialist',
-    context: 'Mentor — HackaPride',
-    text: 'Como mentor, vi na Beatriz uma determinação rara. Ela transforma problemas complexos em soluções simples, seguras e com real impacto social.',
-  },
-  {
-    id: '8',
-    name: 'Jessica Donley',
-    role: 'Somatic Therapy Specialist',
-    context: 'Projeto Internacional',
-    text: 'Colaborar com a Beatriz foi inspirador. Sua visão global e empatia criam soluções que conectam tecnologia, saúde e bem-estar de forma autêntica.',
+    name: 'Carolina Ruas',
+    role: 'Integrante de equipe',
+    context: 'Hackathon Conexão Ancestral',
+    text: 'Destacou minha experiência em hackathons, a disposição para compartilhar conhecimentos e o cuidado em incentivar a participação de todo o time.',
+    linkedin: 'https://www.linkedin.com/in/beatrizkcs/',
   },
 ]
 
